@@ -11,7 +11,7 @@
 
 .more-icons {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 20vw);
     grid-auto-rows: 120px;
     justify-content: space-between;
     align-items:center;
@@ -19,6 +19,7 @@
     color: var(--grey-5);
     font-weight: 500;
     margin-bottom: 10px;
+    box-sizing: border-box;
 }
 
 .more-icons i {

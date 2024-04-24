@@ -3,11 +3,13 @@
     justify-content: space-between;
     align-items: center;
     color: var(--grey-5);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
+    width: 100%;
     height: 100px;
     margin-bottom: 20px;
     padding-top: 20px;
+    box-sizing: border-box;
 }
 
 .find-icons__icon {
@@ -19,7 +21,7 @@
 }
 
 .find-icons__icon span {
-    width: 100px;
+    width: 20vw;
     text-align: center;
     display: block;
 }
