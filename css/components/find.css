@@ -9,6 +9,7 @@
     height: 100px;
     margin-bottom: 20px;
     padding-top: 20px;
+    box-sizing: border-box;
 }
 
 .find-icons__icon {
