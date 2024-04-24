@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - KokoaTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- Add Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>25%</span>
+        <i class="fa-solid fa-battery-quarter fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+        <!-- Add battery Icon -->
+        <!-- Lightning icon -->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__h1">Chats</h1>
+      <div class="screen-header__icons">
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+        <a href="#"><i class="fa-regular fa-comment-dots fa-xl"></i></a>
+        <a href="#"><i class="fa-solid fa-music fa-xl"></i></a>
+        <a href="settings.html"><i class="fa-solid fa-gear fa-xl"></i></a>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__user">
+          <img
+            class="user-component__profile"
+            src="images/kakaotalk.png"
+            alt="kakaotalk logo"
+          />
+          <div class="user-component__text">
+            <h3 class="user-component__text__name">KokoaTalk</h3>
+            <span class="user-component__text__subtitle"
+              >Please check My Kokoa Account info</span
+            >
+          </div>
+        </div>
+        <div class="user-component__info">
+          <span class="user-component__info__time">21:22</span>
+          <span class="user-component__info__new-message">1</span>
+        </div>
+      </div>
+      <a href="chatting.html">
+        <div class="user-component">
+          <div class="user-component__user">
+            <img
+              class="user-component__profile"
+              src="images/sea-otter3.jpg"
+              alt="sea-otter3"
+            />
+            <div class="user-component__text">
+              <h3 class="user-component__text__name">Kira</h3>
+              <span class="user-component__text__subtitle">What's up bro?</span>
+            </div>
+          </div>
+          <div class="user-component__info">
+            <span class="user-component__info__time">21:22</span>
+            <span
+              class="user-component__info__new-message user-component__info__no-message"
+              >1</span
+            >
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"
+            ><i class="fa-regular fa-user fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="chats.html"
+            ><i class="fa-solid fa-comment fa-xl"></i
+            ><span class="nav__notification">1</span></a
+          >
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/539a26ecda.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

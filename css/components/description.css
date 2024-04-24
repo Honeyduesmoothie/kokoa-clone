@@ -1,0 +1,15 @@
+.description {
+    width: 100%;
+    border-top: 2px solid var(--grey-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description__text {
+    color: var(--grey-3);
+    font-weight: 500;
+    padding: 10px 0px;
+    display: block;
+}
+

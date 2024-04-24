@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - KokoaTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- Add Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>25%</span>
+        <i class="fa-solid fa-battery-quarter fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+        <!-- Add battery Icon -->
+        <!-- Lightning icon -->
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__h1">Friends</h1>
+      <div class="screen-header__icons">
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+        <a href="#"><i class="fa-solid fa-music fa-xl"></i></a>
+        <a href="settings.html"><i class="fa-solid fa-gear fa-xl"></i></a>
+      </div>
+    </header>
+
+    <div class="friends-display">
+      <i class="fa-solid fa-circle-info fa-lg"></i>
+      <span class="friends-display__span">Friends' Names Display</span>
+      <i class="fa-solid fa-chevron-right fa-sm"></i>
+    </div>
+
+    <main class="main-screen">
+      <div class="user-component">
+        <div class="user-component__user">
+          <img
+            class="user-component__profile user-component__profile--xl"
+            src="images/sea-otter.jpg"
+            alt="sea otter putting its hands on the ears"
+          />
+          <div class="user-component__text">
+            <h3
+              class="user-component__text__name user-component__text__name--xl"
+            >
+              May
+            </h3>
+            <span class="user-component__text__subtitle"></span>
+          </div>
+        </div>
+        <div class="user-component__info"></div>
+      </div>
+      <div class="friends-block">
+        <div class="description">
+          <span class="description__text">Channel</span>
+          <i class="fa-solid fa-chevron-up fa-sm description__text"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__user">
+            <img
+              class="user-component__profile user-component__profile--sm"
+              src="images/kakaotalk.png"
+              alt="kakaotalk logo"
+            />
+            <div class="user-component__text">
+              <h3 class="user-component__text__name">Channel</h3>
+              <span class="user-component__text__subtitle"
+                >Welcome to channel</span
+              >
+            </div>
+          </div>
+          <div class="user-component__messages">
+            <span>2</span>
+            <i class="fa-solid fa-chevron-right fa-sm"></i>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__ul">
+        <li class="nav__li">
+          <a class="nav__a" href="friends.html"
+            ><i class="fa-solid fa-user fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="chats.html"
+            ><i class="fa-regular fa-comment fa-xl"></i
+            ><span class="nav__notification">1</span></a
+          >
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav__li">
+          <a class="nav__a" href="more.html"
+            ><i class="fa-solid fa-ellipsis fa-xl"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment fa-xl"></i>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/539a26ecda.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

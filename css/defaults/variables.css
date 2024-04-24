@@ -1,0 +1,10 @@
+:root {
+    --yellow: rgb(245,228,28);
+    --transition: all 0.3s ease-in-out;
+    --grey-1: rgb(249,249,249);
+    --grey-2: rgb(200,200,200);
+    --grey-3: rgb(150,150,150, 0.8);
+    --grey-4: rgb(100,100,100);
+    --grey-5: rgb(50,50,50);
+    --chatting-basic: #abc1d1
+}

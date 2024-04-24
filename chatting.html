@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatting - KokoaTalk</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="chatting-body">
+    <div class="status-bar chatting-status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- Add Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>25%</span>
+        <i class="fa-solid fa-battery-quarter fa-xl"></i>
+        <i class="fa-solid fa-bolt-lightning fa-sm"></i>
+        <!-- Add battery Icon -->
+        <!-- Lightning icon -->
+      </div>
+    </div>
+
+    <header class="content-header chatting-header">
+      <a href="chats.html">
+        <div class="backspace">
+          <i class="fa-solid fa-chevron-left fa-xl"></i>
+        </div>
+      </a>
+      <div class="content-header__title">
+        <h1>Kira</h1>
+      </div>
+      <div class="content-header__icons">
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        <i class="fa-solid fa-grip-lines fa-xl"></i>
+      </div>
+    </header>
+
+    <main class="chat-screen">
+      <div class="chatting-date-container">
+        <span class="chatting-date">Tuesday, June 30, 2020</span>
+      </div>
+      <div class="received-message">
+        <img
+          class="received-message__profile"
+          src="images/sea-otter3.jpg"
+          alt="profile photo"
+        />
+        <div class="received-message__chat">
+          <h4>Kira</h4>
+          <div class="chat received-chat">
+            <span class="chat__text received-text"
+              >Hi! What's on your mind?</span
+            >
+            <sub class="chat__time received-time">21:27</sub>
+          </div>
+        </div>
+      </div>
+      <div class="sent-message">
+        <div class="sent-chat">
+          <sub class="chat__time sent-time">21:27</sub>
+          <span class="chat__text sent-text">What's up bro?</span>
+        </div>
+      </div>
+    </main>
+
+    <div class="keyboard">
+      <form class="keyboard__input-bar">
+        <button class="keyboard__input-bar__plus">
+          <i class="fa-solid fa-plus fa-xl"></i>
+        </button>
+        <div class="keyboard__input-container">
+          <input type="text" class="keyboard__input" />
+          <div class="keyboard__input__btns">
+            <button class="input-emoji">
+              <i class="fa-regular fa-face-smile fa-2xl"></i>
+            </button>
+            <button type="submit" class="input-submit">
+              <i class="fa-solid fa-arrow-up fa-xl"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="keyboard__keys">
+        <div class="key-character">
+          <span>q</span>
+        </div>
+        <div class="key-character">
+          <span>w</span>
+        </div>
+        <div class="key-character">
+          <span>e</span>
+        </div>
+        <div class="key-character">
+          <span>r</span>
+        </div>
+        <div class="key-character">
+          <span>t</span>
+        </div>
+        <div class="key-character">
+          <span>y</span>
+        </div>
+        <div class="key-character">
+          <span>u</span>
+        </div>
+        <div class="key-character">
+          <span>i</span>
+        </div>
+        <div class="key-character">
+          <span>o</span>
+        </div>
+        <div class="key-character">
+          <span>p</span>
+        </div>
+      </div>
+      <div class="keyboard__keys keyboard__keys-second-row">
+        <div class="key-character">
+          <span>a</span>
+        </div>
+        <div class="key-character">
+          <span>s</span>
+        </div>
+        <div class="key-character">
+          <span>d</span>
+        </div>
+        <div class="key-character">
+          <span>f</span>
+        </div>
+        <div class="key-character">
+          <span>g</span>
+        </div>
+        <div class="key-character">
+          <span>h</span>
+        </div>
+        <div class="key-character">
+          <span>j</span>
+        </div>
+        <div class="key-character">
+          <span>k</span>
+        </div>
+        <div class="key-character">
+          <span>l</span>
+        </div>
+      </div>
+      <div class="keyboard__keys keyboard__keys-third-row">
+        <div class="key-character key-etc">
+          <span><i class="fa-solid fa-arrow-up fa-xl"></i></span>
+        </div>
+        <div class="key-character">
+          <span>z</span>
+        </div>
+        <div class="key-character">
+          <span>x</span>
+        </div>
+        <div class="key-character">
+          <span>c</span>
+        </div>
+        <div class="key-character">
+          <span>v</span>
+        </div>
+        <div class="key-character">
+          <span>b</span>
+        </div>
+        <div class="key-character">
+          <span>n</span>
+        </div>
+        <div class="key-character">
+          <span>m</span>
+        </div>
+        <div class="key-character key-etc">
+          <span><i class="fa-solid fa-delete-left fa-xl"></i></span>
+        </div>
+      </div>
+      <div class="keyboard__keys keyboard__keys-fourth-row">
+        <div class="key-character key-etc">
+          <span>123</span>
+        </div>
+        <div class="key-character key-etc">
+          <span><i class="fa-solid fa-globe fa-lg"></i></span>
+        </div>
+        <div class="key-character">
+          <span><i class="fa-solid fa-microphone fa-sm"></i></span>
+        </div>
+        <div class="key-character key-spacebar">
+          <span>space</span>
+        </div>
+        <div class="key-character key-return">
+          <span>return</span>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/539a26ecda.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

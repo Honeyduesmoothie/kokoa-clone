@@ -1,0 +1,140 @@
+.keyboard {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+.keyboard__input-bar {
+    height: 50px;
+    background-color: white;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.keyboard__input-bar__plus {
+    color: var(--grey-3);
+    padding: 5px;
+    border: 2px solid var(--grey-3);
+    border-radius: 30%;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.5s ease-in-out;
+}
+
+.keyboard__input-bar__plus:hover {
+    transform: rotateZ(90deg) scale(1.2)
+}
+
+.keyboard__input-container {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.keyboard__input {
+    width: 100%;
+    height: 90%;
+    border: 2px solid var(--grey-2);
+    border-radius: 30px;
+    background-color: var(--grey-1);
+    margin-left: 10px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+
+.keyboard__input__btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 1px;
+}
+
+.input-emoji {
+    margin-right: 10px;
+    color: var(--grey-3);
+    border: transparent;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.2s ease-in-out
+}
+
+.input-emoji:hover {
+    transform: scale(1.2);
+}
+
+.input-submit {
+    border: 1px solid var(--grey-2);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out
+}
+
+.input-submit:hover {
+    font-size: 1.1rem;
+}
+
+.keyboard__keys {
+    background-color: var(--grey-2);
+    height: 50px;
+    padding: 10px 5px 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.key-character {
+    height: 45px;
+    min-width: 39px;
+    max-width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px var(--grey-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    padding-bottom: 5px;
+}
+
+.key-etc {
+    min-width: 50px;
+    height: 50px;
+    background-color: var(--grey-3);
+    padding-bottom: 0px;
+    color: var(--grey-5);
+    font-size: 1.2rem;
+}
+
+.keyboard__keys-third-row .key-etc:first-child {
+    margin-right: 10px;
+}
+
+.keyboard__keys-third-row .key-etc:last-child {
+    margin-left: 10px;
+}
+
+.key-spacebar {
+    min-width: 178px;
+    font-size: 1.3rem;
+}
+
+.key-return {
+    background-color: var(--grey-3);
+    font-size: 1.3rem;
+    min-width: 105px;
+}

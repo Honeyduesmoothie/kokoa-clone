@@ -1,0 +1,131 @@
+.chatting-body {
+    background-color: var(--chatting-basic);
+    height: 500vh;
+}
+
+.chatting-status-bar {
+    background-color: #abc1d1;
+}
+
+.chatting-header {
+    background-color: rgb(171, 193, 209, 0.8);
+}
+
+.chatting-date-container {
+    height: 60px;
+ margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-screen {
+    padding: 0px 20px;
+   
+}
+
+.chatting-date {
+    background-color: #92a4b2;
+    color: #f6f8f9;
+    border-radius: 40px;
+    font-size: 0.9rem;
+    padding: 8px 15px 11px 15px;
+}
+
+.received-message {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.received-message h4 {
+    color: var(--grey-4);
+
+}
+
+.received-message__profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 35%;
+    object-fit: cover;
+}
+
+.received-message__chat {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.received-message__chat::after {
+    content: "";
+    position: absolute;
+    left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right-color: white;
+	border-left: 0;
+	border-top: 0;
+	margin-top: -4px;
+	margin-left: -5px;
+}
+
+.chat__text {
+    background-color: white;
+    padding: 8px 12px 11px 12px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.chat {
+    position: relative;
+}
+
+.chat__time {
+    font-size: 0.8rem;
+    color: var(--grey-4);
+    position: absolute;
+    top: 15px;
+    right: -40px;
+}
+
+.sent-message {
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sent-chat {
+    position: relative;
+}
+
+.sent-chat::after {
+    content: "";
+    position: absolute;
+    right: -7px;
+    top: -11px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-left-color: var(--yellow);
+    border-right: 0px;
+    border-top: 0;
+}
+
+.sent-text {
+    background-color: var(--yellow);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0px;
+}
+
+.sent-time {
+    position: absolute;
+    top: 15px;
+    left: -40px;
+}
+

@@ -1,0 +1,38 @@
+.settings-block-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.settings-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--grey-1);
+    height: 70px;
+}
+
+.settings-block:last-child {
+    border: none;
+}
+
+.settings-block__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grey-5);
+}
+
+.settings-block__title h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.settings-block__title i {
+    padding-right: 20px;
+}
+
+.settings-block__description {
+    color: var(--grey-3);
+    font-size: 1.3rem;
+}

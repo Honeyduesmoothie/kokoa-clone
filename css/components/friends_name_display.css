@@ -1,0 +1,21 @@
+
+
+.friends-display {
+    background-color: var(--grey-1);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends-display i {
+    color: var(--grey-2);
+    padding-right: 5px;
+}
+
+.friends-display__span {
+    color: var(--grey-4);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-right: 10px;
+}

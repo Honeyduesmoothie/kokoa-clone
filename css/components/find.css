@@ -1,0 +1,111 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--grey-5);
+    font-size: 1.2rem;
+    font-weight: 600;
+    height: 100px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.find-icons__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.find-icons__icon span {
+    width: 100px;
+    text-align: center;
+    display: block;
+}
+
+.find-icons__icon:nth-child(2) span {
+    padding-top: 20px;
+}
+
+.find-icons__icon__ID {
+    border: 2px solid var(--grey-5);
+    display: block;
+    height: 26px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.recommended-friends {
+    color: var(--grey-3);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.recommended-friends__content {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description__text:nth-child(2) {
+    color: var(--grey-2);
+}
+
+.open-chat__component {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    color: var(--grey-3);
+    border-bottom: 1px solid var(--grey-1);
+}
+
+.open-chat__component__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.open-chat__component__text h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--grey-5);
+}
+
+.open-chat__component__text span {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.open-chat__component__text__members {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.open-chat__component__text__members__active {
+    color: pink;
+}
+
+.open-chat__component__text__members  span{
+    font-size: 1rem;
+}
+
+.open-chat__component__text__members__profile {
+    width: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.open-chat__component__profile {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 10%;
+}
