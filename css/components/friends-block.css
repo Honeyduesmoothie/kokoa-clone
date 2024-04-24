@@ -20,8 +20,8 @@
     gap: 20px;
 }
 .user-component__profile {
-    height: 70px;
-    width: 70px;
+    height: 60px;
+    width: 60px;
     border-radius: 40%;
     object-fit: cover;
 }
@@ -41,16 +41,17 @@
 }
 
 .user-component__profile--xl {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
 }
 
 .user-component__profile--sm {
-    height: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .user-component__text__name--xl {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     
 }
 
