@@ -1,7 +1,15 @@
+.settings-status-bar {
+    background-color: white;
+}
+
 .settings-block-container {
     display: flex;
     flex-direction: column;
-    margin: 20px 0px;
+    margin: 80px 0px;
+}
+
+.settings-header {
+    background-color: white;
 }
 
 .settings-block {
