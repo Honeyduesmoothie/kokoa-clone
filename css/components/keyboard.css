@@ -109,6 +109,12 @@
     justify-content: center;
     font-size: 1.8rem;
     padding-bottom: 5px;
+    transition: all 0.1s linear;
+}
+
+.key-character:hover {
+    transform: scale(1.1);
+    background-color: var(--grey-2);
 }
 
 .key-etc {
