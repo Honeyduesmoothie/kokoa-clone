@@ -9,6 +9,16 @@
     font-weight: 700;
 }
 
+@keyframes cogwheelTurn {
+    from {
+        transform: rotateZ(0deg) scale(1.5);
+    }
+
+    to {
+        transform: rotateZ(360deg) scale(1.5);
+    }
+}
+
 .screen-header__icons {
     display: flex;
     gap: 30px;
@@ -17,14 +27,22 @@
     position: relative;
 }
 
-.screen-header__icons a:last-child i::after{
-    content: "";
+.fa-gear:hover {
+    animation: 2s linear infinite cogwheelTurn;
+}
+
+.fa-magnifying-glass:hover {
+    transform: scale(1.5);
+}
+
+.screen-header__icons__notification {
     width: 5px;
     height: 5px;
     background-color: tomato;
     position: absolute;
     border-radius: 50%;
     top: 0px;
+    right: -5px;
 }
 
 @keyframes musicSwing{
